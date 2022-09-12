@@ -1,0 +1,27 @@
+/* 아래에 CSS를 작성해주세요. */
+.width1{
+  width:900px;
+}
+
+.font_title1 {
+  font-size:12px;
+}
+.box {
+  width: 300px;
+  display: inline-block;
+}
+.picture{
+  border-radius: 10%;
+}
+.font_introduce{
+  font-size: 5px;
+  letter-spacing: -1px;
+}
+.font_intro_title{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.section{
+  text-align:center;
+}

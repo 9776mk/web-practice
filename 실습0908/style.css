@@ -1,0 +1,63 @@
+
+.header{
+  background-color: black;
+  height: 15rem;
+  width: 100%;
+}
+
+.header-title{
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0 0;
+}
+
+.header-body{
+  color: white;
+  font-weight: lighter;
+  font-size: 0.8rem;
+}
+
+.items-padding{
+  padding: 4rem 3rem;
+}
+
+.sale-margin{
+  margin-top: 1rem;
+}
+
+.card-body-align{
+  align-items: center;
+}
+
+.card-title-font{
+  font-weight: bold;
+}
+
+.card-footer{
+  margin: auto;
+  border-style: none;
+  background-color: white;
+}
+
+.card-text{
+  margin: 0;
+}
+
+.section-2{
+  background-color: gray;
+}
+
+.section-img{
+  width: 350 px;
+  height: 380 px;
+}
+
+.img-size{
+  width: 100%;
+  height: auto
+}
+
+.item-title{
+  font-size: 3rem;
+}

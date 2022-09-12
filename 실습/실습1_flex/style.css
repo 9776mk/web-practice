@@ -1,0 +1,32 @@
+/* 아래에 CSS를 작성해주세요. */
+.flex-container{
+  display: flex;
+}
+
+.width{
+  width: 300px;
+}
+
+
+.center{
+  text-align: center;
+  width: 900px
+}
+
+.title{
+  font-size: 12px;
+}
+
+.card{
+  width: 300px;
+  margin: 0 20px;
+}
+
+.image{
+  border-radius: 10%;
+}
+
+
+.explain{
+  flex-wrap: wrap;
+}

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  min-width: 1280px;
+  color: #333333;
+  height: 10000px;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  padding: 1rem;
+  top: 0;
+}
+
+.nav-list {
+  display: flex;
+  padding: 1;
+  margin: 0;
+  list-style: none;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-link{
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: white;
+  background-color: gray;
+}
+
+.Banner{
+  height: 700px;
+  background-image : url('../assets/apparel.jpeg');
+  background-size: 100%;
+  margin: 0 0;
+}
+
+.content{
+  margin: 0 auto;
+  display: flex;
+  width: 1280px;
+}
+
+.about{
+  display: flex;
+  margin: 3rem;
+}
+
+.image{
+  width: 500px;
+  border-radius: 10%;
+  margin: 1rem;
+  
+}
+
+.about_text{
+  flex-wrap: wrap;
+}
+
+.h2{
+  font-size: 20px;
+}
+
+.more-image{
+  max-width: 64px;
+  max-height: 64px;
+}
+
+.more-flex{
+  margin: 0 auto;
+  display: flex;
+  width: 1280px;
+  justify-content: center;
+  align-items: center;
+}
+
+.fixed-btn{
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.section-title{
+  margin: 1rem;
+  font-size: 3rem;
+  text-align:center;
+}
+
+.about-text{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 3rem;
+}
+
+.about-title{
+  font-size: 3rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.more-list{
+  display: flex;
+  justify-content: space-evenly;
+}
+.page {
+  width: 1280px;
+  background-color: #ffffff;
+  margin: 5px auto 5px;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.product {
+  display: flex;
+  width: 400px;
+  margin-top: 25px;
+  border: 1px solid black;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product-img{
+  width: 95%;
+}
+
+.product-info {
+  margin: 10px 10px;
+  text-align: center;
+}
+
+.genre {
+  margin: 5px auto;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.product-lorem{
+  text-align: left;
+  color: rgb(63, 60, 60);
+}
+
+
+
