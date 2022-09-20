@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .carousel-items {
+      display: flex;
+      width: 50rem
+    }
+
+    .carousel-item{
+      width: 10rem;
+      height: 10rem;
+      background-color: bisque;
+      display: none;
+    }
+
+    .active{
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="carousel-items">
+    <div class="carousel-item active">1</div>
+    <div class="carousel-item">2</div>
+    <div class="carousel-item">3</div>
+    <div class="carousel-item">4</div>
+  </div>
+  <button id="prevBtn">previous</button>  
+  <button id="nextBtn">next</button>  
+
+  <script>
+    const nextBtn = document.querySelector('#nextBtn')
+    nextBtn.addEventListener('click', function() {
+      // 지금 active인 값 받아오기
+      const currentElement = document.querySelector('.active')
+      // 전체 itme 중 이 element의 인덱스
+      const items = document.querySelectorAll('.carousel-item')
+      const idx = [...items].indexOf(currentElement)
+
+      currentElement.classList.toggle('active') 
+      items[(idx+1)%items.length].classList.toggle('active')
+    })
+
+    const prevBtn = document.querySelector('#prevBtn')
+    prevBtn.addEventListener('click', function() {
+      // 지금 active인 값 받아오기
+      const currentElement = document.querySelector('.active')
+      // 전체 itme 중 이 element의 인덱스
+      const items = document.querySelectorAll('.carousel-item')
+      const idx = [...items].indexOf(currentElement)
+
+      currentElement.classList.toggle('active')
+      items[(idx + items.length - 1)%items.length].classList.toggle('active')
+    })
+  </script>
+
+</body>
+</html>
